@@ -9,8 +9,7 @@
     "displayName": "User"
   },
   "options": {
-    "draftAndPublish": false,
-    "timestamps": true
+    "draftAndPublish": false
   },
   "attributes": {
     "username": {
@@ -68,6 +67,12 @@
       "relation": "manyToMany",
       "target": "api::post.post",
       "mappedBy": "likedBy"
+    },
+    "course_likes": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::course.course",
+      "inversedBy": "likeBies"
     }
   }
 }

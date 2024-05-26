@@ -12,7 +12,6 @@ module.exports = createCoreRouter("api::tag.tag", {
   except: ["create"],
   config: {
     find: {
-      auth: false, // disabling the Strapi JWT auth system for this route
       policies: [],
       middlewares: [],
     },

@@ -38,6 +38,17 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::tag.tag"
+    },
+    "premium": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "likeBies": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "plugin::users-permissions.user",
+      "mappedBy": "course_likes"
     }
   }
 }

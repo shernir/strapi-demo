@@ -5,7 +5,7 @@ const myPrimaryColor = "#2C97AD";
 
 export default {
   config: {
-    locales: ["it"],
+    locales: ["ar"],
     // translations: {
     //   it: {
     //     "app.components.LeftMenuLinkContainer.installNewPlugin": "Negozio",

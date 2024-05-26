@@ -14,8 +14,8 @@ module.exports = ({ env }) => ({
         // ... any custom nodemailer options
       },
       settings: {
-        defaultFrom: "info@artcoded.net",
-        defaultReplyTo: "info@artcoded.net",
+        defaultFrom: "sheko@strapi.com",
+        defaultReplyTo: "sheko@strapi.com",
       },
     },
   },
